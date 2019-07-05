@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<grammar version="1.0" mode="voice" root="commands" xml:lang="en-US" tag-format="semantics/1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id ="commands">
+    <one-of>
+      <item repeat="0-1">
+        <ruleref uri="#alltheater"/>
+        <tag>out.action=rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="alltheater">
+    <one-of>
+      <item>
+        <tag>out.action="start";out.authority="common";</tag>
+        <one-of>
+          <item>start</item>
+          <item>play</item>
+          <item>start the video</item>
+          <item>play the video</item>
+          <item>start video</item>
+          <item>play video</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="stop"; out.authority="common";</tag>
+        <one-of>
+          <item>stop</item>
+          <item>stop the video</item>
+          <item>stop video</item>
+          <item>close</item>
+          <item>close the video</item>
+          <item>close video</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="pause"; out.authority="common";</tag>
+        <one-of>
+          <item>pause</item>
+          <item>pause the video</item>
+          <item>pause video</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="louder";out.authority="common";</tag>
+        <one-of>
+          <item>louder</item>
+          <item>raise</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="lower"; out.authority="common";</tag>
+        <one-of>
+          <item>lower</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="previous"; out.authority="common";</tag>previous
+      </item>
+      <item>
+        <tag>out.action="next"; out.authority="common";</tag>next
+      </item>
+      <item>
+        <tag>out.action="forward"; out.authority="system"; </tag>forward
+      </item>
+      <item>
+        <tag>out.action="backward"; out.authority="system";</tag>backward
+      </item>
+    </one-of>
+  </rule>
+</grammar>

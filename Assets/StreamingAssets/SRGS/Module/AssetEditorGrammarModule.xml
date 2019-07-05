@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<grammar version="1.0" mode="voice" root="commands" xml:lang="en-US" tag-format="semantics/1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id ="commands">
+    <one-of>
+      <item repeat="0-1">
+        <ruleref uri="#asseteditor"/> <tag> out.action=rules.latest(); out.authority="system"; </tag>
+      </item>
+      <item repeat="0-1">
+        <ruleref uri="#modelcategory"/> <tag>out.target=rules.latest(); out.authority="system";</tag>
+      </item>
+      <item repeat="0-1">
+        <ruleref uri="#primary"/><tag>out.action= rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <!-- system reserved primary action keywords, call those words to perform actions on different menus-->
+  <rule id="primary">
+    <one-of>
+      <item>
+        <tag>out.action="spawn"; out.authority="system";</tag>
+        <one-of>
+          <item>spawn</item>
+          <item>make</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="delete"; out.authority="system";</tag>delete
+      </item>
+      <item>
+        <tag>out.action="delete mode"; out.authority="system";</tag>delete mode
+      </item>
+    </one-of>
+  </rule>
+  
+  <rule id="asseteditor">
+    <one-of>
+      <!-- delete (this/the) (model/game) -->
+      <item>
+        <item>
+          <tag>out.action="delete";</tag>delete
+        </item>
+        <item repeat="0-1">this</item>
+        <item repeat="0-1">the</item>
+        <item repeat="0-1">
+          <ruleref uri="#assettype"/>
+        </item>
+      </item>
+      <!-- rotate (this/the) (model/game) forward / backward / left / right -->
+      <item>
+        <item>
+          <tag>out.action="rotate";</tag>
+          <one-of>
+            <item>rotate</item>
+            <item>spin</item>
+            <item>turn</item>
+          </one-of>
+        </item>
+        <item repeat="0-1">this</item>
+        <item repeat="0-1">the</item>
+        <item repeat="0-1"><ruleref uri="#assettype"/> </item>
+        <item repeat ="0-1">
+          <ruleref uri="#direction"/><tag>out.direction=rules.latest();</tag>
+        </item>
+      </item>
+
+      <!-- make (this/the) (model/game) bigger/smaller -->
+      <item>
+        <item repeat="0-1">make</item>
+        <item repeat="0-1">this</item>
+        <item repeat="0-1">the</item>
+        <item repeat="0-1">
+          <ruleref uri="#assettype"/>
+        </item>
+        <one-of>
+          <item>
+            <tag>out.action="bigger";</tag>bigger
+          </item>
+          <item>
+            <tag>out.action="smaller";</tag>smaller
+          </item>
+        </one-of>
+      </item>
+
+      <!-- scale (this/the) (model/game) up/down -->
+      <item>
+        <item>scale</item>
+        <item repeat="0-1">this</item>
+        <item repeat="0-1">the</item>
+        <item repeat="0-1">
+          <ruleref uri="#assettype"/>
+        </item>
+        <one-of>
+          <item>
+            <tag>out.action="bigger";</tag>up
+          </item>
+          <item>
+            <tag>out.action="smaller";</tag>down
+          </item>
+        </one-of>
+      </item>
+      
+    </one-of>
+  </rule>
+
+  <rule id="assettype">
+    <one-of>
+      <item>model</item>
+      <item>game</item>
+    </one-of>
+  </rule>
+
+  <rule id="direction">
+    <one-of>
+      <item>
+        <tag>out.direction="clockwise";</tag>clockwise
+      </item>
+      <item>
+        <tag>out.direction="counter clockwise";</tag>counter clockwise
+      </item>
+      <item>
+        <tag>out.direction="forward";</tag>forward
+      </item>
+      <item>
+        <tag>out.direction="backward";</tag>backward
+      </item>
+      <item>
+        <tag>out.direction="left";</tag>left
+      </item>
+      <item>
+        <tag>out.direction="right";</tag>right
+      </item>
+    </one-of>
+  </rule>
+  
+  <rule id="modelcategory">
+    <one-of>
+      <item>
+        <tag>out.target="all";</tag>all
+      </item>
+      <item>
+        <tag>out.target="furniture";</tag>furniture
+      </item>
+      <item>
+        <tag>out.target="art";</tag>art
+      </item>
+      <item>
+        <tag>out.target="plants";</tag>plants
+      </item>
+      <item>
+        <tag>out.target="others";</tag>others
+      </item>
+    </one-of>
+  </rule>
+</grammar>

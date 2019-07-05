@@ -1,0 +1,44 @@
+fileFormatVersion: 2
+guid: cfe382c6dc4c7d24ab030c83d1e578eb
+timeCreated: 1528972036
+licenseType: Store
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 0
+      settings: {}
+    Editor:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+    Linux:
+      enabled: 0
+      settings: {}
+    Linux64:
+      enabled: 0
+      settings: {}
+    LinuxUniversal:
+      enabled: 0
+      settings: {}
+    OSXIntel:
+      enabled: 0
+      settings: {}
+    OSXIntel64:
+      enabled: 0
+      settings: {}
+    OSXUniversal:
+      enabled: 0
+      settings: {}
+    Win:
+      enabled: 0
+      settings: {}
+    Win64:
+      enabled: 0
+      settings: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

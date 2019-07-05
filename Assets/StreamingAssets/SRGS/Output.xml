@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<grammar version="1.0" mode="voice" root="commands" xml:lang="en-US" tag-format="semantics/1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="commands">
+    <one-of>
+      <item>
+        <ruleref uri="#activation" />
+      </item>
+      <item>
+        <ruleref uri="#systemtargets" />
+      </item>
+      <item>
+        <ruleref uri="#primaryaction" />
+      </item>
+      <item>
+        <ruleref uri="#assetaction" />
+      </item>
+      <item>
+        <ruleref uri="#modelcategory" />
+      </item>
+      <item>
+        <ruleref uri="#primaryaction" />
+      </item>
+      <item>
+        <ruleref uri="#blackjack" />
+      </item>
+      <item>
+        <ruleref uri="#test" />
+      </item>
+    </one-of>
+  </rule>
+  <rule id="activation">
+    <one-of>
+      <item>
+        <item repeat="0-1">hey</item>
+        <item repeat="0-1">hello</item>
+        <item repeat="0-1">hi</item>
+        <item repeat="0-1">ok</item>
+      </item>
+    </one-of>
+    <item>
+      <tag>out.action="activate";</tag>aurora
+    </item>
+  </rule>
+  <!-- system category keywords, call those first to activate/focus on different menus-->
+  <rule id="systemtargets">
+    <one-of>
+      <item>
+        <tag>out.target="menu";</tag>menu
+      </item>
+      <item>
+        <tag>out.target="home";</tag>home
+      </item>
+      <item>
+        <tag>out.target="my space";</tag>my space
+      </item>
+      <item>
+        <tag>out.target="space";</tag>space
+      </item>
+      <item>
+        <tag>out.target="avatar";</tag>avatar
+      </item>
+      <item>
+        <tag>out.target="profile";</tag>profile
+      </item>
+      <item>
+        <tag>out.target="model";</tag>model
+      </item>
+      <item>
+        <tag>out.target="game";</tag>game
+      </item>
+      <item>
+        <tag>out.target="audio";</tag>audio
+      </item>
+      <item>
+        <tag>out.target="video";</tag>video
+      </item>
+    </one-of>
+  </rule>
+  <!-- system reserved primary action keywords, call those words to perform actions on different menus-->
+  <rule id="primaryaction">
+    <one-of>
+      <item>
+        <tag>out.action="logout";</tag>
+        <one-of>
+          <item>logout</item>
+          <item>sign out</item>
+          <item>log out</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="previous";</tag>previous
+      </item>
+      <item>
+        <tag>out.action="next";</tag>next
+      </item>
+      <item>
+        <tag>out.action="start";</tag>
+        <one-of>
+          <item>start</item>
+          <item>play</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="exit";</tag>
+        <one-of>
+          <item>close</item>
+          <item>exit</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="edit";</tag>edit
+      </item>
+      <item>
+        <tag>out.action="save";</tag>save
+      </item>
+      <item>
+        <tag>out.action="cancel";</tag>cancel
+      </item>
+    </one-of>
+  </rule>
+  <rule id="assetaction">
+    <one-of>
+      <item>
+        <item>
+          <tag>out.action="rotate";</tag>rotate
+        </item>
+        <item repeat="0-1">
+          <ruleref uri="#direction" />
+          <tag>out.direction=rules.latest();</tag>
+        </item>
+      </item>
+      <item>
+        <tag>out.action="bigger";</tag>bigger
+      </item>
+      <item>
+        <tag>out.action="smaller";</tag>smaller
+      </item>
+      <item>
+        <tag>out.target="scale";</tag>scale
+      </item>
+    </one-of>
+  </rule>
+  <rule id="direction">
+    <one-of>
+      <item>
+        <tag>out.direction="forward";</tag>forward
+      </item>
+      <item>
+        <tag>out.direction="backward";</tag>backward
+      </item>
+      <item>
+        <tag>out.direction="left";</tag>left
+      </item>
+      <item>
+        <tag>out.direction="right";</tag>right
+      </item>
+    </one-of>
+  </rule>
+  <rule id="modelcategory">
+    <one-of>
+      <item>
+        <tag>out.target="all";</tag>all
+      </item>
+      <item>
+        <tag>out.target="furniture";</tag>furniture
+      </item>
+      <item>
+        <tag>out.target="art";</tag>art
+      </item>
+      <item>
+        <tag>out.target="plants";</tag>plants
+      </item>
+      <item>
+        <tag>out.target="others";</tag>others
+      </item>
+    </one-of>
+  </rule>
+  <rule id="primaryaction">
+    <one-of>
+      <item>
+        <tag>out.action="enter";</tag> enter
+      </item>
+      <item>
+        <tag>out.action="create";</tag>create
+      </item>
+      <item>
+        <tag>out.action="spawn";</tag>spawn
+      </item>
+      <item>
+        <tag>out.action="delete";</tag> delete
+      </item>
+    </one-of>
+  </rule>
+  <rule id="blackjack">
+    <tag>out.game="blackjack";</tag>
+    <one-of>
+      <item>
+        <tag>out.action="hit";</tag>hit
+      </item>
+      <item>
+        <tag>out.action="stand";</tag>stand
+      </item>
+      <item>
+        <tag>out.action="split";</tag>split
+      </item>
+      <item>
+        <tag>out.action="double";</tag>double
+      </item>
+      <!--
+      <item>
+        <item><tag>out.action="bet";</tag>bet</item>
+        <ruleref uri="#number"/><tag>out.number=rules.latest();</tag> 
+        <item repeat="0-1">dollar</item>
+        <item repeat="0-1">dollars</item>
+      </item> -->
+    </one-of>
+  </rule>
+  <rule id="test">
+    <one-of>
+      <item>go<tag>out.action = "go"</tag></item>
+      <item>pass<tag>out.action = "pass"</tag></item>
+      <item>catch<tag>out.action = "catch"</tag></item>
+    </one-of>
+  </rule>
+</grammar>

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010286097864}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010286097864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012338370514}
+  - 114: {fileID: 114000012102736302}
+  - 114: {fileID: 114000014271609114}
+  - 114: {fileID: 114000011828657600}
+  - 114: {fileID: 114000013208028318}
+  m_Layer: 0
+  m_Name: PinchHand_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012338370514
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010286097864}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000011828657600
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010286097864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 947afb95c5e9b8b40a2a0bc3dc87c289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackingTimeWindow: 1
+  velocityAngleThresh: 80
+  distThresh: 0.02
+--- !u!114 &114000012102736302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010286097864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ab2e79448c3f84dbdb9a6018eade94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handType: 1
+  pinchEnableDistance: 0.06
+  pinchEnableTipDistance: 0.04
+  pinchStartTipDistance: 0.04
+  pinchEndTipDistance: 0.06
+  trackingTimeWindow: 1
+  closingSpeedThresh: 0.01
+  openingSpeedThresh: 0.02
+--- !u!114 &114000013208028318
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010286097864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ae1f841ea4dcf418c158f4f25bf896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handType: 1
+--- !u!114 &114000014271609114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010286097864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06daf5b82e889434abd1507f7efce194, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightedHandType: 1
+  transparentMaterial: {fileID: 2100000, guid: 07fd08fb5767221438cfc77f79116187, type: 2}

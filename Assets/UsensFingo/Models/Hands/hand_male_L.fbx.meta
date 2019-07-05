@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 458a448119326f14fb6d2e423a6b0185
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Hand_left
+    100002: joint43
+    100004: joint44
+    100006: joint45
+    100008: joint46
+    100010: joint47
+    100012: joint48
+    100014: joint49
+    100016: joint50
+    100018: joint51
+    100020: joint52
+    100022: joint53
+    100024: joint54
+    100026: joint55
+    100028: joint56
+    100030: joint57
+    100032: joint58
+    100034: joint59
+    100036: joint60
+    100038: joint61
+    100040: joint62
+    100042: joint63
+    100044: //RootNode
+    400000: Hand_left
+    400002: joint43
+    400004: joint44
+    400006: joint45
+    400008: joint46
+    400010: joint47
+    400012: joint48
+    400014: joint49
+    400016: joint50
+    400018: joint51
+    400020: joint52
+    400022: joint53
+    400024: joint54
+    400026: joint55
+    400028: joint56
+    400030: joint57
+    400032: joint58
+    400034: joint59
+    400036: joint60
+    400038: joint61
+    400040: joint62
+    400042: joint63
+    400044: //RootNode
+    4300000: Hand_left
+    9500000: //RootNode
+    13700000: Hand_left
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #25'
+    second: {fileID: 2100000, guid: a8a410f5b4ef73645a362d30a34b4258, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: joint43
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

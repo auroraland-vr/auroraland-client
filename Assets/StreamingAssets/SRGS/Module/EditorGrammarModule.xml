@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<grammar version="1.0" mode="voice" root="commands" xml:lang="en-US" tag-format="semantics/1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id ="commands">
+    <one-of>
+      <item repeat="0-1">
+        <ruleref uri="#enterspace"/>
+        <tag>
+          out.action= rules.latest(); out.authority="system";
+        </tag>
+      </item>
+      <item repeat="0-1">
+        <ruleref uri="#primary"/>
+        <tag>out.action= rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+  
+  <!-- system reserved primary action keywords, call those words to perform actions on different menus-->
+  <rule id="primary">
+    <one-of>
+      <item>
+        <tag>out.action="enter"; out.authority="system";</tag>enter
+      </item>
+      <item>
+        <tag>out.action="load"; out.authority="system";</tag>
+        <one-of>
+          <item>load</item>
+          <item>go</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="create"; out.authority="system";</tag>create
+      </item>
+      <item>
+        <tag>out.action="delete"; out.authority="system";</tag>delete
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="enterspace">
+    <tag>out.action="enter";</tag>
+    <one-of>
+      <item>enter</item>
+      <item>go</item>
+    </one-of>
+    <item repeat ="0-1">to</item>
+    <item repeat ="0-1">the</item>
+    <item repeat ="0-1">this</item>
+    <item>
+      <ruleref uri="#spaces"/>
+      <tag>out.target= rules.latest();</tag>
+    </item>
+  </rule>
+
+  <rule id="spaces">
+    <one-of>
+      <item>home</item>
+      <item>my space</item>
+      <item>space</item>
+    </one-of>
+  </rule>
+  
+</grammar>

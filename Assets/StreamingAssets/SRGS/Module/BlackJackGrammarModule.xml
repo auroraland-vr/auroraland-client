@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<grammar version="1.0" mode="voice" root="commands" xml:lang="en-US" tag-format="semantics/1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id ="commands">
+    <one-of>
+      <item repeat="0-1">
+        <ruleref uri="#blackjack"/>
+        <tag>out.action=rules.latest(); out.authority="user";</tag>
+      </item>
+    </one-of>
+  </rule>
+  <rule id ="blackjack">
+    <tag>out.game="blackjack";</tag>
+    <one-of>
+      <item>
+        <tag>out.action="hit";</tag>hit
+      </item>
+      <item>
+        <tag>out.action="stand";</tag>stand
+      </item>
+      <item>
+        <tag>out.action="split";</tag>split
+      </item>
+      <item>
+        <tag>out.action="double";</tag>double
+      </item>
+      <!--
+      <item>
+        <item><tag>out.action="bet";</tag>bet</item>
+        <ruleref uri="#number"/><tag>out.number=rules.latest();</tag> 
+        <item repeat="0-1">dollar</item>
+        <item repeat="0-1">dollars</item>
+      </item> -->
+    </one-of>
+  </rule>
+</grammar>

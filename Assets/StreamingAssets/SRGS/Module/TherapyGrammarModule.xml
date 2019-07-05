@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar version="1.0" mode="voice" root="commands" xml:lang="en-US" tag-format="semantics/1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id ="commands">
+    <one-of>
+      <item repeat="0-1">
+        <ruleref uri="#video"/> 
+        <tag> out.action=rules.latest();</tag>
+      </item>
+      <item repeat="0-1">
+        <ruleref uri="#audio"/> 
+        <tag> out.action=rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="video">
+    <one-of>
+      <item>
+        <tag>out.action="night"; out.authority="system";</tag>
+        <one-of>
+          <item>night</item>
+          <item>start night</item>
+          <item>play night</item>
+          <item>start the night</item>
+          <item>play the night</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="flowers"; out.authority="system";</tag>
+        <one-of>
+          <item>flowers</item>
+          <item>start flowers</item>
+          <item>play flowers</item>
+          <item>start the flowers</item>
+          <item>play the flowers</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="waves"; out.authority="system";</tag>
+        <one-of>
+          <item>waves</item>
+          <item>start waves</item>
+          <item>play waves</item>
+          <item>start the waves</item>
+          <item>play the waves</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="sunset"; out.authority="system";</tag>
+        <one-of>
+          <item>sunset</item>
+          <item>start sunset</item>
+          <item>play sunset</item>
+          <item>start the sunset</item>
+          <item>play the sunset</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="stop"; out.authority="common";</tag>
+        <one-of>
+          <item>stop</item>
+          <item>stop video</item>
+          <item>close video</item>
+          <item>stop the video</item>
+          <item>close the video</item>
+          <item>video stop</item>
+          <item>video close</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="audio">
+    <one-of>
+      <item>
+        <tag>out.action="music"; out.authority="system";</tag>
+        <one-of>
+          <item>music</item>
+          <item>music start</item>
+          <item>music play</item>
+          <item>start the music</item>
+          <item>play the music</item>
+          <item>start music</item>
+          <item>play music</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="stop music"; out.authority="system";</tag>
+        <one-of>
+          <item>stop music</item>
+          <item>stop the music</item>
+          <item>music stop</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="pause music"; out.authority="system";</tag>
+        <one-of>
+          <item>pause music</item>
+          <item>pause the music</item>
+          <item>music pause</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="louder"; out.authority="common";</tag>
+        <one-of>
+          <item>louder</item>
+          <item>raise</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="lower"; out.authority="common";</tag>
+        <one-of>
+          <item>lower</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="previous"; out.authority="common";</tag>previous
+      </item>
+      <item>
+        <tag>out.action="next"; out.authority="common";</tag>next
+      </item>
+    </one-of>
+  </rule>
+</grammar>

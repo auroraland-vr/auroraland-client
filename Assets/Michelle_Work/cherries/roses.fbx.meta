@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 099fae69edafc2f45b1f935f277611d9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bud
+    100002: Flower
+    100004: //RootNode
+    100006: Stem
+    100008: Vase
+    100010: Water
+    400000: Bud
+    400002: Flower
+    400004: //RootNode
+    400006: Stem
+    400008: Vase
+    400010: Water
+    2100000: Bud
+    2100002: Flower
+    2100004: Stem
+    2100006: Vase
+    2100008: Water
+    2300000: Bud
+    2300002: Flower
+    2300004: Stem
+    2300006: Vase
+    2300008: Water
+    3300000: Bud
+    3300002: Flower
+    3300004: Stem
+    3300006: Vase
+    3300008: Water
+    4300000: Bud
+    4300002: Flower
+    4300004: Stem
+    4300006: Vase
+    4300008: Water
+    7400000: Roses_red|Bud|Take 001|BaseLayer
+    7400002: Roses_red|Camera001.Target|Take 001|BaseLayer
+    7400004: Roses_red|Camera001|Take 001|BaseLayer
+    7400006: Roses_red|ChamferCyl001|Take 001|BaseLayer
+    7400008: Roses_red|Flower|Take 001|BaseLayer
+    7400010: Roses_red|Group001|Take 001|BaseLayer
+    7400012: Roses_red|Roses_red|Take 001|BaseLayer
+    7400014: Roses_red|Stem|Take 001|BaseLayer
+    7400016: Roses_red|Vase|Take 001|BaseLayer
+    7400018: Roses_red|VRayLight001|Take 001|BaseLayer
+    7400020: Roses_red|VRayLight002|Take 001|BaseLayer
+    7400022: Roses_red|VRayLight003|Take 001|BaseLayer
+    7400024: Roses_red|Water|Take 001|BaseLayer
+    7400026: Bud|Bud|Take 001|BaseLayer
+    7400028: Bud|Camera001.Target|Take 001|BaseLayer
+    7400030: Bud|Camera001|Take 001|BaseLayer
+    7400032: Bud|ChamferCyl001|Take 001|BaseLayer
+    7400034: Bud|Flower|Take 001|BaseLayer
+    7400036: Bud|Group001|Take 001|BaseLayer
+    7400038: Bud|Roses_red|Take 001|BaseLayer
+    7400040: Bud|Stem|Take 001|BaseLayer
+    7400042: Bud|Vase|Take 001|BaseLayer
+    7400044: Bud|VRayLight001|Take 001|BaseLayer
+    7400046: Bud|VRayLight002|Take 001|BaseLayer
+    7400048: Bud|VRayLight003|Take 001|BaseLayer
+    7400050: Bud|Water|Take 001|BaseLayer
+    7400052: Flower|Bud|Take 001|BaseLayer
+    7400054: Flower|Camera001.Target|Take 001|BaseLayer
+    7400056: Flower|Camera001|Take 001|BaseLayer
+    7400058: Flower|ChamferCyl001|Take 001|BaseLayer
+    7400060: Flower|Flower|Take 001|BaseLayer
+    7400062: Flower|Group001|Take 001|BaseLayer
+    7400064: Flower|Roses_red|Take 001|BaseLayer
+    7400066: Flower|Stem|Take 001|BaseLayer
+    7400068: Flower|Vase|Take 001|BaseLayer
+    7400070: Flower|VRayLight001|Take 001|BaseLayer
+    7400072: Flower|VRayLight002|Take 001|BaseLayer
+    7400074: Flower|VRayLight003|Take 001|BaseLayer
+    7400076: Flower|Water|Take 001|BaseLayer
+    7400078: Stem|Bud|Take 001|BaseLayer
+    7400080: Stem|Camera001.Target|Take 001|BaseLayer
+    7400082: Stem|Camera001|Take 001|BaseLayer
+    7400084: Stem|ChamferCyl001|Take 001|BaseLayer
+    7400086: Stem|Flower|Take 001|BaseLayer
+    7400088: Stem|Group001|Take 001|BaseLayer
+    7400090: Stem|Roses_red|Take 001|BaseLayer
+    7400092: Stem|Stem|Take 001|BaseLayer
+    7400094: Stem|Vase|Take 001|BaseLayer
+    7400096: Stem|VRayLight001|Take 001|BaseLayer
+    7400098: Stem|VRayLight002|Take 001|BaseLayer
+    7400100: Stem|VRayLight003|Take 001|BaseLayer
+    7400102: Stem|Water|Take 001|BaseLayer
+    7400104: Vase|Bud|Take 001|BaseLayer
+    7400106: Vase|Camera001.Target|Take 001|BaseLayer
+    7400108: Vase|Camera001|Take 001|BaseLayer
+    7400110: Vase|ChamferCyl001|Take 001|BaseLayer
+    7400112: Vase|Flower|Take 001|BaseLayer
+    7400114: Vase|Group001|Take 001|BaseLayer
+    7400116: Vase|Roses_red|Take 001|BaseLayer
+    7400118: Vase|Stem|Take 001|BaseLayer
+    7400120: Vase|Vase|Take 001|BaseLayer
+    7400122: Vase|VRayLight001|Take 001|BaseLayer
+    7400124: Vase|VRayLight002|Take 001|BaseLayer
+    7400126: Vase|VRayLight003|Take 001|BaseLayer
+    7400128: Vase|Water|Take 001|BaseLayer
+    7400130: Water|Bud|Take 001|BaseLayer
+    7400132: Water|Camera001.Target|Take 001|BaseLayer
+    7400134: Water|Camera001|Take 001|BaseLayer
+    7400136: Water|ChamferCyl001|Take 001|BaseLayer
+    7400138: Water|Flower|Take 001|BaseLayer
+    7400140: Water|Group001|Take 001|BaseLayer
+    7400142: Water|Roses_red|Take 001|BaseLayer
+    7400144: Water|Stem|Take 001|BaseLayer
+    7400146: Water|Vase|Take 001|BaseLayer
+    7400148: Water|VRayLight001|Take 001|BaseLayer
+    7400150: Water|VRayLight002|Take 001|BaseLayer
+    7400152: Water|VRayLight003|Take 001|BaseLayer
+    7400154: Water|Water|Take 001|BaseLayer
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bud
+    second: {fileID: 2100000, guid: 0522f993cf014584d912c3bdb93d8973, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flower
+    second: {fileID: 2100000, guid: df89a99804d682e4fb21957ec650f585, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stem
+    second: {fileID: 2100000, guid: bee741a008124ea4bbff554c4703daa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vase
+    second: {fileID: 2100000, guid: c6223748e10cc8546a0437597bad919f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Water
+    second: {fileID: 2100000, guid: db68a970f30579a49a5c1be43926595d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

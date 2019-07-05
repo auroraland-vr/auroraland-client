@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<grammar version="1.0" mode="voice" root="commands" xml:lang="en-US" tag-format="semantics/1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="commands">
+    <item repeat="0-1">
+      <ruleref uri="#activation" />
+      <tag>out.activate=rules.latest(); out.authority="system";</tag>
+    </item>
+    <item repeat="0-1">
+      <ruleref uri="#authentication" />
+      <tag>out.action=rules.latest(); out.authority="system";</tag>
+    </item>
+    <item repeat="0-1">
+      <ruleref uri="#deactivation" />
+      <tag>out.activate="deactivate"; out.authority="system";</tag>
+    </item>
+  </rule>
+
+  <rule id="activation">
+    <item repeat="0-1">hey</item>
+    <item repeat="0-1">hello</item>
+    <item repeat="0-1">hi</item>
+    <item repeat="0-1">ok</item>
+    <item>
+      <tag>out.activate="aurora";</tag>aurora
+    </item>
+  </rule>
+  <rule id="deactivation">
+    <item>
+      <tag>out.activate="deactivate";</tag>
+      <one-of>
+        <item>deactivate</item>
+        <item>mute</item>
+        <item>never mind</item>
+        <item>shut up</item>
+        <item>good bye</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="authentication">
+    <one-of>
+      <item>
+        <tag>out.action="sign in";</tag>
+        <one-of>
+          <item>sign me in</item>
+          <item>sign in</item>
+          <item>log me in</item>
+          <item>log in</item>
+          <item>login</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="sign up";</tag>
+        <one-of>
+          <item>sign me up</item>
+          <item>sign up</item>
+          <item>create an account</item>
+          <item>create my account</item>
+          <item>create new account</item>
+          <item>create account</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="logout";</tag>
+        <one-of>
+          <item>sign me out</item>
+          <item>sign out</item>
+          <item>log me out</item>
+          <item>log out</item>
+          <item>logout</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

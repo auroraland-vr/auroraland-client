@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<grammar version="1.0" mode="voice" root="commands" xml:lang="en-US" tag-format="semantics/1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="commands">
+    <item repeat="0-1">
+      <ruleref uri="#activation" />
+      <tag>
+        out.activate=rules.latest();
+        out.authority="system";
+      </tag>
+    </item>
+    <one-of>
+      <item repeat="0-1">
+        <ruleref uri="#deactivation" />
+        <tag>out.activate="deactivate"; out.authority="system";</tag>
+      </item>
+      <item repeat="0-1">
+        <ruleref uri="#openmenu" />
+        <tag>out.action=rules.latest(); out.authority="system";</tag>
+      </item>
+      <item repeat="0-1">
+        <ruleref uri="#authentication" />
+        <tag>out.action=rules.latest(); out.authority="system";</tag>
+      </item>
+      <item repeat="0-1">
+        <ruleref uri="#systemtargets" />
+        <tag>out.target=rules.latest(); out.authority="system";</tag>
+      </item>
+      <item repeat="0-1">
+        <ruleref uri="#primary" />
+        <tag>out.action=rules.latest(); out.authority=rules.latest();</tag>
+      </item>
+      <item repeat="0-1">
+        <ruleref uri="#combination" />
+        <tag>out.action=rules.latest();  out.authority=rules.latest();</tag>
+      </item>
+      <item repeat="0-1">
+        <ruleref uri="#dialog" />
+        <tag>out.action=rules.latest();  out.authority="common";</tag>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="activation">
+    <one-of>
+      <item>
+        <item repeat="0-1">hey</item>
+        <item repeat="0-1">hello</item>
+        <item repeat="0-1">hi</item>
+        <item repeat="0-1">ok</item>
+      </item>
+    </one-of>
+    <item>
+      <tag>out.activate="aurora";</tag>aurora
+    </item>
+  </rule>
+  <rule id="deactivation">
+    <item>
+      <tag>out.activate="deactivate";</tag>
+      <one-of>
+        <item>deactivate</item>
+        <item>mute</item>
+        <item>never mind</item>
+        <item>shut up</item>
+        <item>good bye</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="authentication">
+    <one-of>
+      <item>
+        <tag>out.action="sign in";</tag>
+        <one-of>
+          <item>sign in</item>
+          <item>log in</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="sign up";</tag>sign up
+      </item>
+      <item>
+        <tag>out.action="logout";</tag>
+        <one-of>
+          <item>logout</item>
+          <item>sign out</item>
+          <item>log out</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="combination">
+    <item>
+      <ruleref uri="#primary" />
+      <tag>out.action= rules.latest(); out.authority=rules.latest();</tag>
+    </item>
+    <item repeat="0-1">the</item>
+    <item repeat="0-1">this</item>
+    <item>
+      <ruleref uri="#systemtargets" />
+      <tag>out.target= rules.latest();</tag>
+    </item>
+  </rule>
+  <!-- system category keywords, call those first to activate/focus on different menus-->
+  <rule id="systemtargets">
+    <one-of>
+      <item>
+        <ruleref uri="#mainmenu" />
+        <tag>out.target=rules.latest();</tag>
+      </item>
+      <item>
+        <tag>out.target="home";</tag>home
+      </item>
+      <item>
+        <tag>out.target="my space";</tag>my space
+      </item>
+      <item>
+        <tag>out.target="space";</tag>space
+      </item>
+      <item>
+        <tag>out.target="avatar";</tag>avatar
+      </item>
+      <item>
+        <tag>out.target="profile";</tag>profile
+      </item>
+      <item>
+        <tag>out.target="model";</tag>model
+      </item>
+      <item>
+        <tag>out.target="game";</tag>game
+      </item>
+      <item>
+        <tag>out.target="audio";</tag>audio
+      </item>
+      <item>
+        <tag>out.target="video";</tag>video
+      </item>
+      <item>
+        <tag>out.target="theme";</tag>theme
+      </item>
+    </one-of>
+  </rule>
+  <!-- system reserved primary action keywords, call those words to perform actions on different menus-->
+  <rule id="primary">
+    <one-of>
+      <item>
+        <tag>out.action="previous"; out.authority="common";</tag>previous
+      </item>
+      <item>
+        <tag>out.action="next"; out.authority="common";</tag>next
+      </item>
+      <item>
+        <tag>out.action="start";out.authority="common";</tag>
+        <one-of>
+          <item>start</item>
+          <item>play</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="stop"; out.authority="common";</tag>
+        <one-of>
+          <item>stop</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="exit"; out.authority="common";</tag>
+        <one-of>
+          <item>close</item>
+          <item>exit</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="edit"; out.authority="common";</tag>
+        <one-of>
+          <item>edit</item>
+          <item>config</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="save"; out.authority="common";</tag>save
+      </item>
+      <item>
+        <tag>out.action="cancel";out.authority="common";</tag>cancel
+      </item>
+      <item>
+        <tag>out.action="enter"; out.authority="system";</tag>enter
+      </item>
+      <item>
+        <tag>out.action="load"; out.authority="system";</tag>
+        <one-of>
+          <item>load</item>
+          <item>go</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="create"; out.authority="system";</tag>create
+      </item>
+      <item>
+        <tag>out.action="spawn"; out.authority="system";</tag>spawn
+      </item>
+      <item>
+        <tag>out.action="delete"; out.authority="system";</tag>delete
+      </item>
+      <item>
+        <tag>out.action="forward"; out.authority="system"; </tag>forward
+      </item>
+      <item>
+        <tag>out.action="backward"; out.authority="system";</tag>backward
+      </item>
+    </one-of>
+  </rule>
+  <rule id="openmenu">
+    <item repeat="0-1">open <tag>out.action="open";</tag></item>
+    <item repeat="0-1">the</item>
+    <item repeat="0-1">main</item>
+    <item>
+      <ruleref uri="#mainmenu" />
+      <tag>out.target=rules.latest();</tag>
+    </item>
+  </rule>
+  <rule id="mainmenu">
+    <tag>out.target="menu";</tag>
+    <one-of>
+      <item>menu</item>
+      <item>console</item>
+    </one-of>
+  </rule>
+  <rule id="spaces">
+    <one-of>
+      <item>home</item>
+      <item>my space</item>
+      <item>space</item>
+    </one-of>
+  </rule>
+  <rule id="dialog">
+    <one-of>
+      <item>
+        <tag>out.action="yes";</tag>
+        <one-of>
+          <item>yes</item>
+          <item>ok</item>
+          <item>sure</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.action="no";</tag>
+        <one-of>
+          <item>no</item>
+          <item>not ok</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

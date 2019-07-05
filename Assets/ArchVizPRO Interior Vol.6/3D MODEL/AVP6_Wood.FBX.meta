@@ -1,0 +1,1496 @@
+fileFormatVersion: 2
+guid: dfd36afc28bc5904a8aedef6d4d7ee33
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Wood
+    100004: Wood 1
+    100006: Wood 10
+    100008: Wood 11
+    100010: Wood 12
+    100012: Wood 13
+    100014: Wood 14
+    100016: Wood 15
+    100018: Wood 16
+    100020: Wood 17
+    100022: Wood 18
+    100024: Wood 19
+    100026: Wood 2
+    100028: Wood 20
+    100030: Wood 21
+    100032: Wood 22
+    100034: Wood 23
+    100036: Wood 24
+    100038: Wood 25
+    100040: Wood 26
+    100042: Wood 27
+    100044: Wood 28
+    100046: Wood 29
+    100048: Wood 3
+    100050: Wood 30
+    100052: Wood 31
+    100054: Wood 32
+    100056: Wood 33
+    100058: Wood 34
+    100060: Wood 35
+    100062: Wood 36
+    100064: Wood 37
+    100066: Wood 38
+    100068: Wood 39
+    100070: Wood 4
+    100072: Wood 40
+    100074: Wood 41
+    100076: Wood 42
+    100078: Wood 43
+    100080: Wood 44
+    100082: Wood 45
+    100084: Wood 46
+    100086: Wood 47
+    100088: Wood 48
+    100090: Wood 49
+    100092: Wood 5
+    100094: Wood 50
+    100096: Wood 51
+    100098: Wood 52
+    100100: Wood 53
+    100102: Wood 54
+    100104: Wood 55
+    100106: Wood 56
+    100108: Wood 57
+    100110: Wood 58
+    100112: Wood 59
+    100114: Wood 6
+    100116: Wood 60
+    100118: Wood 61
+    100120: Wood 62
+    100122: Wood 63
+    100124: Wood 64
+    100126: Wood 65
+    100128: Wood 66
+    100130: Wood 67
+    100132: Wood 68
+    100134: Wood 7
+    100136: Wood 8
+    100138: Wood 9
+    100140: Metal
+    100142: Metal 1
+    100144: Metal 10
+    100146: Metal 11
+    100148: Metal 2
+    100150: Metal 3
+    100152: Metal 4
+    100154: Metal 5
+    100156: Metal 6
+    100158: Metal 7
+    100160: Metal 8
+    100162: Metal 9
+    100164: Wood 69
+    100166: Box021
+    100168: Box022
+    100170: Box087
+    100172: Box088
+    100174: Box089
+    100176: Box090
+    100178: Box091
+    100180: Box094
+    100182: Box397
+    100184: Box398
+    100186: Cylinder001
+    100188: Cylinder006
+    100190: Cylinder007
+    100192: Floor_Ceramic
+    100194: Floor_Parquet
+    100196: Floor_Parquet 1
+    100198: Floor_Parquet 2
+    100200: Floor_Parquet 3
+    100202: Floor_Parquet 4
+    100204: Frames_Exterior
+    100206: Frames_Exterior 1
+    100208: Frames_Exterior 10
+    100210: Frames_Exterior 11
+    100212: Frames_Exterior 12
+    100214: Frames_Exterior 13
+    100216: Frames_Exterior 14
+    100218: Frames_Exterior 15
+    100220: Frames_Exterior 16
+    100222: Frames_Exterior 17
+    100224: Frames_Exterior 18
+    100226: Frames_Exterior 19
+    100228: Frames_Exterior 2
+    100230: Frames_Exterior 3
+    100232: Frames_Exterior 4
+    100234: Frames_Exterior 5
+    100236: Frames_Exterior 6
+    100238: Frames_Exterior 7
+    100240: Frames_Exterior 8
+    100242: Frames_Exterior 9
+    100244: Frames_Interior
+    100246: Frames_Interior 1
+    100248: Frames_Interior 10
+    100250: Frames_Interior 11
+    100252: Frames_Interior 12
+    100254: Frames_Interior 13
+    100256: Frames_Interior 14
+    100258: Frames_Interior 15
+    100260: Frames_Interior 16
+    100262: Frames_Interior 17
+    100264: Frames_Interior 18
+    100266: Frames_Interior 19
+    100268: Frames_Interior 2
+    100270: Frames_Interior 3
+    100272: Frames_Interior 4
+    100274: Frames_Interior 5
+    100276: Frames_Interior 6
+    100278: Frames_Interior 7
+    100280: Frames_Interior 8
+    100282: Frames_Interior 9
+    100284: Frames_Pillar
+    100286: Frames_Pillar 1
+    100288: Glass_Exterior
+    100290: Glass_Exterior 1
+    100292: Glass_Exterior 10
+    100294: Glass_Exterior 11
+    100296: Glass_Exterior 12
+    100298: Glass_Exterior 13
+    100300: Glass_Exterior 14
+    100302: Glass_Exterior 2
+    100304: Glass_Exterior 3
+    100306: Glass_Exterior 4
+    100308: Glass_Exterior 5
+    100310: Glass_Exterior 6
+    100312: Glass_Exterior 7
+    100314: Glass_Exterior 8
+    100316: Glass_Exterior 9
+    100318: Glass_Interior
+    100320: Glass_Interior 1
+    100322: Glass_Interior 10
+    100324: Glass_Interior 11
+    100326: Glass_Interior 12
+    100328: Glass_Interior 13
+    100330: Glass_Interior 14
+    100332: Glass_Interior 15
+    100334: Glass_Interior 16
+    100336: Glass_Interior 17
+    100338: Glass_Interior 18
+    100340: Glass_Interior 19
+    100342: Glass_Interior 2
+    100344: Glass_Interior 3
+    100346: Glass_Interior 4
+    100348: Glass_Interior 5
+    100350: Glass_Interior 6
+    100352: Glass_Interior 7
+    100354: Glass_Interior 8
+    100356: Glass_Interior 9
+    100358: Line048
+    100360: Line066
+    100362: Line067
+    100364: Line068
+    100366: Line073
+    100368: Line074
+    100370: Line075
+    100372: Line076
+    100374: Line077
+    100376: Line083
+    100378: Line087
+    100380: Line088
+    100382: Line089
+    100384: Line090
+    100386: Line091
+    100388: Line092
+    100390: Line093
+    100392: Line140
+    100394: Metal001
+    100396: Object
+    100398: Object007
+    100400: Object008
+    100402: Object009
+    100404: Object011
+    100406: Plane001
+    100408: Plane002
+    100410: Plane003
+    100412: Plane004
+    100414: Plane007
+    100416: Plane008
+    100418: Plane009
+    100420: Plane010
+    100422: Plane011
+    100424: Roof_Main
+    100426: Roof_Street
+    100428: Roof_Top
+    100430: Shape001
+    100432: Stone
+    100434: Stone 1
+    100436: Stone 2
+    100438: Stone 3
+    100440: Stone 4
+    100442: Stone 5
+    100444: StraightStair001
+    100446: StraightStair002
+    100448: Walls_Bathroom
+    100450: Walls_Bedroom
+    100452: Walls_Courtyard2
+    100454: Walls_Coutyard1
+    100456: Walls_Diningroom
+    100458: Walls_Exterior2
+    100460: Walls_Garage
+    100462: Walls_Livingroom
+    100464: Walls_Relaxroom
+    100466: Walls_Shell
+    100468: Walls_Studio1
+    100470: Walls_Studio2
+    100472: Stair
+    100474: Wood00
+    100476: Wood01
+    100478: Wood02
+    100480: Wood03
+    100482: Wood04
+    100484: Wood05
+    100486: Wood06
+    100488: Wood07
+    100490: Wood08
+    100492: Wood09
+    100494: Wood10
+    100496: Wood11
+    100498: Wood12
+    100500: Wood13
+    100502: Wood14
+    100504: Wood15
+    100506: Wood016
+    100508: Wood017
+    100510: Wood018
+    100512: Wood019
+    100514: Wood020
+    100516: Wood021
+    100518: Stair2
+    100520: Stair3
+    100522: Wood20
+    400000: //RootNode
+    400002: Wood
+    400004: Wood 1
+    400006: Wood 10
+    400008: Wood 11
+    400010: Wood 12
+    400012: Wood 13
+    400014: Wood 14
+    400016: Wood 15
+    400018: Wood 16
+    400020: Wood 17
+    400022: Wood 18
+    400024: Wood 19
+    400026: Wood 2
+    400028: Wood 20
+    400030: Wood 21
+    400032: Wood 22
+    400034: Wood 23
+    400036: Wood 24
+    400038: Wood 25
+    400040: Wood 26
+    400042: Wood 27
+    400044: Wood 28
+    400046: Wood 29
+    400048: Wood 3
+    400050: Wood 30
+    400052: Wood 31
+    400054: Wood 32
+    400056: Wood 33
+    400058: Wood 34
+    400060: Wood 35
+    400062: Wood 36
+    400064: Wood 37
+    400066: Wood 38
+    400068: Wood 39
+    400070: Wood 4
+    400072: Wood 40
+    400074: Wood 41
+    400076: Wood 42
+    400078: Wood 43
+    400080: Wood 44
+    400082: Wood 45
+    400084: Wood 46
+    400086: Wood 47
+    400088: Wood 48
+    400090: Wood 49
+    400092: Wood 5
+    400094: Wood 50
+    400096: Wood 51
+    400098: Wood 52
+    400100: Wood 53
+    400102: Wood 54
+    400104: Wood 55
+    400106: Wood 56
+    400108: Wood 57
+    400110: Wood 58
+    400112: Wood 59
+    400114: Wood 6
+    400116: Wood 60
+    400118: Wood 61
+    400120: Wood 62
+    400122: Wood 63
+    400124: Wood 64
+    400126: Wood 65
+    400128: Wood 66
+    400130: Wood 67
+    400132: Wood 68
+    400134: Wood 7
+    400136: Wood 8
+    400138: Wood 9
+    400140: Metal
+    400142: Metal 1
+    400144: Metal 10
+    400146: Metal 11
+    400148: Metal 2
+    400150: Metal 3
+    400152: Metal 4
+    400154: Metal 5
+    400156: Metal 6
+    400158: Metal 7
+    400160: Metal 8
+    400162: Metal 9
+    400164: Wood 69
+    400166: Box021
+    400168: Box022
+    400170: Box087
+    400172: Box088
+    400174: Box089
+    400176: Box090
+    400178: Box091
+    400180: Box094
+    400182: Box397
+    400184: Box398
+    400186: Cylinder001
+    400188: Cylinder006
+    400190: Cylinder007
+    400192: Floor_Ceramic
+    400194: Floor_Parquet
+    400196: Floor_Parquet 1
+    400198: Floor_Parquet 2
+    400200: Floor_Parquet 3
+    400202: Floor_Parquet 4
+    400204: Frames_Exterior
+    400206: Frames_Exterior 1
+    400208: Frames_Exterior 10
+    400210: Frames_Exterior 11
+    400212: Frames_Exterior 12
+    400214: Frames_Exterior 13
+    400216: Frames_Exterior 14
+    400218: Frames_Exterior 15
+    400220: Frames_Exterior 16
+    400222: Frames_Exterior 17
+    400224: Frames_Exterior 18
+    400226: Frames_Exterior 19
+    400228: Frames_Exterior 2
+    400230: Frames_Exterior 3
+    400232: Frames_Exterior 4
+    400234: Frames_Exterior 5
+    400236: Frames_Exterior 6
+    400238: Frames_Exterior 7
+    400240: Frames_Exterior 8
+    400242: Frames_Exterior 9
+    400244: Frames_Interior
+    400246: Frames_Interior 1
+    400248: Frames_Interior 10
+    400250: Frames_Interior 11
+    400252: Frames_Interior 12
+    400254: Frames_Interior 13
+    400256: Frames_Interior 14
+    400258: Frames_Interior 15
+    400260: Frames_Interior 16
+    400262: Frames_Interior 17
+    400264: Frames_Interior 18
+    400266: Frames_Interior 19
+    400268: Frames_Interior 2
+    400270: Frames_Interior 3
+    400272: Frames_Interior 4
+    400274: Frames_Interior 5
+    400276: Frames_Interior 6
+    400278: Frames_Interior 7
+    400280: Frames_Interior 8
+    400282: Frames_Interior 9
+    400284: Frames_Pillar
+    400286: Frames_Pillar 1
+    400288: Glass_Exterior
+    400290: Glass_Exterior 1
+    400292: Glass_Exterior 10
+    400294: Glass_Exterior 11
+    400296: Glass_Exterior 12
+    400298: Glass_Exterior 13
+    400300: Glass_Exterior 14
+    400302: Glass_Exterior 2
+    400304: Glass_Exterior 3
+    400306: Glass_Exterior 4
+    400308: Glass_Exterior 5
+    400310: Glass_Exterior 6
+    400312: Glass_Exterior 7
+    400314: Glass_Exterior 8
+    400316: Glass_Exterior 9
+    400318: Glass_Interior
+    400320: Glass_Interior 1
+    400322: Glass_Interior 10
+    400324: Glass_Interior 11
+    400326: Glass_Interior 12
+    400328: Glass_Interior 13
+    400330: Glass_Interior 14
+    400332: Glass_Interior 15
+    400334: Glass_Interior 16
+    400336: Glass_Interior 17
+    400338: Glass_Interior 18
+    400340: Glass_Interior 19
+    400342: Glass_Interior 2
+    400344: Glass_Interior 3
+    400346: Glass_Interior 4
+    400348: Glass_Interior 5
+    400350: Glass_Interior 6
+    400352: Glass_Interior 7
+    400354: Glass_Interior 8
+    400356: Glass_Interior 9
+    400358: Line048
+    400360: Line066
+    400362: Line067
+    400364: Line068
+    400366: Line073
+    400368: Line074
+    400370: Line075
+    400372: Line076
+    400374: Line077
+    400376: Line083
+    400378: Line087
+    400380: Line088
+    400382: Line089
+    400384: Line090
+    400386: Line091
+    400388: Line092
+    400390: Line093
+    400392: Line140
+    400394: Metal001
+    400396: Object
+    400398: Object007
+    400400: Object008
+    400402: Object009
+    400404: Object011
+    400406: Plane001
+    400408: Plane002
+    400410: Plane003
+    400412: Plane004
+    400414: Plane007
+    400416: Plane008
+    400418: Plane009
+    400420: Plane010
+    400422: Plane011
+    400424: Roof_Main
+    400426: Roof_Street
+    400428: Roof_Top
+    400430: Shape001
+    400432: Stone
+    400434: Stone 1
+    400436: Stone 2
+    400438: Stone 3
+    400440: Stone 4
+    400442: Stone 5
+    400444: StraightStair001
+    400446: StraightStair002
+    400448: Walls_Bathroom
+    400450: Walls_Bedroom
+    400452: Walls_Courtyard2
+    400454: Walls_Coutyard1
+    400456: Walls_Diningroom
+    400458: Walls_Exterior2
+    400460: Walls_Garage
+    400462: Walls_Livingroom
+    400464: Walls_Relaxroom
+    400466: Walls_Shell
+    400468: Walls_Studio1
+    400470: Walls_Studio2
+    400472: Stair
+    400474: Wood00
+    400476: Wood01
+    400478: Wood02
+    400480: Wood03
+    400482: Wood04
+    400484: Wood05
+    400486: Wood06
+    400488: Wood07
+    400490: Wood08
+    400492: Wood09
+    400494: Wood10
+    400496: Wood11
+    400498: Wood12
+    400500: Wood13
+    400502: Wood14
+    400504: Wood15
+    400506: Wood016
+    400508: Wood017
+    400510: Wood018
+    400512: Wood019
+    400514: Wood020
+    400516: Wood021
+    400518: Stair2
+    400520: Stair3
+    400522: Wood20
+    2300000: Wood
+    2300002: Wood 1
+    2300004: Wood 10
+    2300006: Wood 11
+    2300008: Wood 12
+    2300010: Wood 13
+    2300012: Wood 14
+    2300014: Wood 15
+    2300016: Wood 16
+    2300018: Wood 17
+    2300020: Wood 18
+    2300022: Wood 19
+    2300024: Wood 2
+    2300026: Wood 20
+    2300028: Wood 21
+    2300030: Wood 22
+    2300032: Wood 23
+    2300034: Wood 24
+    2300036: Wood 25
+    2300038: Wood 26
+    2300040: Wood 27
+    2300042: Wood 28
+    2300044: Wood 29
+    2300046: Wood 3
+    2300048: Wood 30
+    2300050: Wood 31
+    2300052: Wood 32
+    2300054: Wood 33
+    2300056: Wood 34
+    2300058: Wood 35
+    2300060: Wood 36
+    2300062: Wood 37
+    2300064: Wood 38
+    2300066: Wood 39
+    2300068: Wood 4
+    2300070: Wood 40
+    2300072: Wood 41
+    2300074: Wood 42
+    2300076: Wood 43
+    2300078: Wood 44
+    2300080: Wood 45
+    2300082: Wood 46
+    2300084: Wood 47
+    2300086: Wood 48
+    2300088: Wood 49
+    2300090: Wood 5
+    2300092: Wood 50
+    2300094: Wood 51
+    2300096: Wood 52
+    2300098: Wood 53
+    2300100: Wood 54
+    2300102: Wood 55
+    2300104: Wood 56
+    2300106: Wood 57
+    2300108: Wood 58
+    2300110: Wood 59
+    2300112: Wood 6
+    2300114: Wood 60
+    2300116: Wood 61
+    2300118: Wood 62
+    2300120: Wood 63
+    2300122: Wood 64
+    2300124: Wood 65
+    2300126: Wood 66
+    2300128: Wood 67
+    2300130: Wood 68
+    2300132: Wood 7
+    2300134: Wood 8
+    2300136: Wood 9
+    2300138: Metal
+    2300140: Metal 1
+    2300142: Metal 10
+    2300144: Metal 11
+    2300146: Metal 2
+    2300148: Metal 3
+    2300150: Metal 4
+    2300152: Metal 5
+    2300154: Metal 6
+    2300156: Metal 7
+    2300158: Metal 8
+    2300160: Metal 9
+    2300162: Wood 69
+    2300164: Box021
+    2300166: Box022
+    2300168: Box087
+    2300170: Box088
+    2300172: Box089
+    2300174: Box090
+    2300176: Box091
+    2300178: Box094
+    2300180: Box397
+    2300182: Box398
+    2300184: Cylinder001
+    2300186: Cylinder006
+    2300188: Cylinder007
+    2300190: Floor_Ceramic
+    2300192: Floor_Parquet
+    2300194: Floor_Parquet 1
+    2300196: Floor_Parquet 2
+    2300198: Floor_Parquet 3
+    2300200: Floor_Parquet 4
+    2300202: Frames_Exterior
+    2300204: Frames_Exterior 1
+    2300206: Frames_Exterior 10
+    2300208: Frames_Exterior 11
+    2300210: Frames_Exterior 12
+    2300212: Frames_Exterior 13
+    2300214: Frames_Exterior 14
+    2300216: Frames_Exterior 15
+    2300218: Frames_Exterior 16
+    2300220: Frames_Exterior 17
+    2300222: Frames_Exterior 18
+    2300224: Frames_Exterior 19
+    2300226: Frames_Exterior 2
+    2300228: Frames_Exterior 3
+    2300230: Frames_Exterior 4
+    2300232: Frames_Exterior 5
+    2300234: Frames_Exterior 6
+    2300236: Frames_Exterior 7
+    2300238: Frames_Exterior 8
+    2300240: Frames_Exterior 9
+    2300242: Frames_Interior
+    2300244: Frames_Interior 1
+    2300246: Frames_Interior 10
+    2300248: Frames_Interior 11
+    2300250: Frames_Interior 12
+    2300252: Frames_Interior 13
+    2300254: Frames_Interior 14
+    2300256: Frames_Interior 15
+    2300258: Frames_Interior 16
+    2300260: Frames_Interior 17
+    2300262: Frames_Interior 18
+    2300264: Frames_Interior 19
+    2300266: Frames_Interior 2
+    2300268: Frames_Interior 3
+    2300270: Frames_Interior 4
+    2300272: Frames_Interior 5
+    2300274: Frames_Interior 6
+    2300276: Frames_Interior 7
+    2300278: Frames_Interior 8
+    2300280: Frames_Interior 9
+    2300282: Frames_Pillar
+    2300284: Frames_Pillar 1
+    2300286: Glass_Exterior
+    2300288: Glass_Exterior 1
+    2300290: Glass_Exterior 10
+    2300292: Glass_Exterior 11
+    2300294: Glass_Exterior 12
+    2300296: Glass_Exterior 13
+    2300298: Glass_Exterior 14
+    2300300: Glass_Exterior 2
+    2300302: Glass_Exterior 3
+    2300304: Glass_Exterior 4
+    2300306: Glass_Exterior 5
+    2300308: Glass_Exterior 6
+    2300310: Glass_Exterior 7
+    2300312: Glass_Exterior 8
+    2300314: Glass_Exterior 9
+    2300316: Glass_Interior
+    2300318: Glass_Interior 1
+    2300320: Glass_Interior 10
+    2300322: Glass_Interior 11
+    2300324: Glass_Interior 12
+    2300326: Glass_Interior 13
+    2300328: Glass_Interior 14
+    2300330: Glass_Interior 15
+    2300332: Glass_Interior 16
+    2300334: Glass_Interior 17
+    2300336: Glass_Interior 18
+    2300338: Glass_Interior 19
+    2300340: Glass_Interior 2
+    2300342: Glass_Interior 3
+    2300344: Glass_Interior 4
+    2300346: Glass_Interior 5
+    2300348: Glass_Interior 6
+    2300350: Glass_Interior 7
+    2300352: Glass_Interior 8
+    2300354: Glass_Interior 9
+    2300356: Line048
+    2300358: Line066
+    2300360: Line067
+    2300362: Line068
+    2300364: Line073
+    2300366: Line074
+    2300368: Line075
+    2300370: Line076
+    2300372: Line077
+    2300374: Line083
+    2300376: Line087
+    2300378: Line088
+    2300380: Line089
+    2300382: Line090
+    2300384: Line091
+    2300386: Line092
+    2300388: Line093
+    2300390: Line140
+    2300392: Metal001
+    2300394: Object
+    2300396: Object007
+    2300398: Object008
+    2300400: Object009
+    2300402: Object011
+    2300404: Plane001
+    2300406: Plane002
+    2300408: Plane003
+    2300410: Plane004
+    2300412: Plane007
+    2300414: Plane008
+    2300416: Plane009
+    2300418: Plane010
+    2300420: Plane011
+    2300422: Roof_Main
+    2300424: Roof_Street
+    2300426: Roof_Top
+    2300428: Shape001
+    2300430: Stone
+    2300432: Stone 1
+    2300434: Stone 2
+    2300436: Stone 3
+    2300438: Stone 4
+    2300440: Stone 5
+    2300442: StraightStair001
+    2300444: StraightStair002
+    2300446: Walls_Bathroom
+    2300448: Walls_Bedroom
+    2300450: Walls_Courtyard2
+    2300452: Walls_Coutyard1
+    2300454: Walls_Diningroom
+    2300456: Walls_Exterior2
+    2300458: Walls_Garage
+    2300460: Walls_Livingroom
+    2300462: Walls_Relaxroom
+    2300464: Walls_Shell
+    2300466: Walls_Studio1
+    2300468: Walls_Studio2
+    2300470: Stair
+    2300472: Wood00
+    2300474: Wood01
+    2300476: Wood02
+    2300478: Wood03
+    2300480: Wood04
+    2300482: Wood05
+    2300484: Wood06
+    2300486: Wood07
+    2300488: Wood08
+    2300490: Wood09
+    2300492: Wood10
+    2300494: Wood11
+    2300496: Wood12
+    2300498: Wood13
+    2300500: Wood14
+    2300502: Wood15
+    2300504: Wood016
+    2300506: Wood017
+    2300508: Wood018
+    2300510: Wood019
+    2300512: Wood020
+    2300514: Wood021
+    2300516: Stair2
+    2300518: Stair3
+    2300520: Wood20
+    3300000: Wood
+    3300002: Wood 1
+    3300004: Wood 10
+    3300006: Wood 11
+    3300008: Wood 12
+    3300010: Wood 13
+    3300012: Wood 14
+    3300014: Wood 15
+    3300016: Wood 16
+    3300018: Wood 17
+    3300020: Wood 18
+    3300022: Wood 19
+    3300024: Wood 2
+    3300026: Wood 20
+    3300028: Wood 21
+    3300030: Wood 22
+    3300032: Wood 23
+    3300034: Wood 24
+    3300036: Wood 25
+    3300038: Wood 26
+    3300040: Wood 27
+    3300042: Wood 28
+    3300044: Wood 29
+    3300046: Wood 3
+    3300048: Wood 30
+    3300050: Wood 31
+    3300052: Wood 32
+    3300054: Wood 33
+    3300056: Wood 34
+    3300058: Wood 35
+    3300060: Wood 36
+    3300062: Wood 37
+    3300064: Wood 38
+    3300066: Wood 39
+    3300068: Wood 4
+    3300070: Wood 40
+    3300072: Wood 41
+    3300074: Wood 42
+    3300076: Wood 43
+    3300078: Wood 44
+    3300080: Wood 45
+    3300082: Wood 46
+    3300084: Wood 47
+    3300086: Wood 48
+    3300088: Wood 49
+    3300090: Wood 5
+    3300092: Wood 50
+    3300094: Wood 51
+    3300096: Wood 52
+    3300098: Wood 53
+    3300100: Wood 54
+    3300102: Wood 55
+    3300104: Wood 56
+    3300106: Wood 57
+    3300108: Wood 58
+    3300110: Wood 59
+    3300112: Wood 6
+    3300114: Wood 60
+    3300116: Wood 61
+    3300118: Wood 62
+    3300120: Wood 63
+    3300122: Wood 64
+    3300124: Wood 65
+    3300126: Wood 66
+    3300128: Wood 67
+    3300130: Wood 68
+    3300132: Wood 7
+    3300134: Wood 8
+    3300136: Wood 9
+    3300138: Metal
+    3300140: Metal 1
+    3300142: Metal 10
+    3300144: Metal 11
+    3300146: Metal 2
+    3300148: Metal 3
+    3300150: Metal 4
+    3300152: Metal 5
+    3300154: Metal 6
+    3300156: Metal 7
+    3300158: Metal 8
+    3300160: Metal 9
+    3300162: Wood 69
+    3300164: Box021
+    3300166: Box022
+    3300168: Box087
+    3300170: Box088
+    3300172: Box089
+    3300174: Box090
+    3300176: Box091
+    3300178: Box094
+    3300180: Box397
+    3300182: Box398
+    3300184: Cylinder001
+    3300186: Cylinder006
+    3300188: Cylinder007
+    3300190: Floor_Ceramic
+    3300192: Floor_Parquet
+    3300194: Floor_Parquet 1
+    3300196: Floor_Parquet 2
+    3300198: Floor_Parquet 3
+    3300200: Floor_Parquet 4
+    3300202: Frames_Exterior
+    3300204: Frames_Exterior 1
+    3300206: Frames_Exterior 10
+    3300208: Frames_Exterior 11
+    3300210: Frames_Exterior 12
+    3300212: Frames_Exterior 13
+    3300214: Frames_Exterior 14
+    3300216: Frames_Exterior 15
+    3300218: Frames_Exterior 16
+    3300220: Frames_Exterior 17
+    3300222: Frames_Exterior 18
+    3300224: Frames_Exterior 19
+    3300226: Frames_Exterior 2
+    3300228: Frames_Exterior 3
+    3300230: Frames_Exterior 4
+    3300232: Frames_Exterior 5
+    3300234: Frames_Exterior 6
+    3300236: Frames_Exterior 7
+    3300238: Frames_Exterior 8
+    3300240: Frames_Exterior 9
+    3300242: Frames_Interior
+    3300244: Frames_Interior 1
+    3300246: Frames_Interior 10
+    3300248: Frames_Interior 11
+    3300250: Frames_Interior 12
+    3300252: Frames_Interior 13
+    3300254: Frames_Interior 14
+    3300256: Frames_Interior 15
+    3300258: Frames_Interior 16
+    3300260: Frames_Interior 17
+    3300262: Frames_Interior 18
+    3300264: Frames_Interior 19
+    3300266: Frames_Interior 2
+    3300268: Frames_Interior 3
+    3300270: Frames_Interior 4
+    3300272: Frames_Interior 5
+    3300274: Frames_Interior 6
+    3300276: Frames_Interior 7
+    3300278: Frames_Interior 8
+    3300280: Frames_Interior 9
+    3300282: Frames_Pillar
+    3300284: Frames_Pillar 1
+    3300286: Glass_Exterior
+    3300288: Glass_Exterior 1
+    3300290: Glass_Exterior 10
+    3300292: Glass_Exterior 11
+    3300294: Glass_Exterior 12
+    3300296: Glass_Exterior 13
+    3300298: Glass_Exterior 14
+    3300300: Glass_Exterior 2
+    3300302: Glass_Exterior 3
+    3300304: Glass_Exterior 4
+    3300306: Glass_Exterior 5
+    3300308: Glass_Exterior 6
+    3300310: Glass_Exterior 7
+    3300312: Glass_Exterior 8
+    3300314: Glass_Exterior 9
+    3300316: Glass_Interior
+    3300318: Glass_Interior 1
+    3300320: Glass_Interior 10
+    3300322: Glass_Interior 11
+    3300324: Glass_Interior 12
+    3300326: Glass_Interior 13
+    3300328: Glass_Interior 14
+    3300330: Glass_Interior 15
+    3300332: Glass_Interior 16
+    3300334: Glass_Interior 17
+    3300336: Glass_Interior 18
+    3300338: Glass_Interior 19
+    3300340: Glass_Interior 2
+    3300342: Glass_Interior 3
+    3300344: Glass_Interior 4
+    3300346: Glass_Interior 5
+    3300348: Glass_Interior 6
+    3300350: Glass_Interior 7
+    3300352: Glass_Interior 8
+    3300354: Glass_Interior 9
+    3300356: Line048
+    3300358: Line066
+    3300360: Line067
+    3300362: Line068
+    3300364: Line073
+    3300366: Line074
+    3300368: Line075
+    3300370: Line076
+    3300372: Line077
+    3300374: Line083
+    3300376: Line087
+    3300378: Line088
+    3300380: Line089
+    3300382: Line090
+    3300384: Line091
+    3300386: Line092
+    3300388: Line093
+    3300390: Line140
+    3300392: Metal001
+    3300394: Object
+    3300396: Object007
+    3300398: Object008
+    3300400: Object009
+    3300402: Object011
+    3300404: Plane001
+    3300406: Plane002
+    3300408: Plane003
+    3300410: Plane004
+    3300412: Plane007
+    3300414: Plane008
+    3300416: Plane009
+    3300418: Plane010
+    3300420: Plane011
+    3300422: Roof_Main
+    3300424: Roof_Street
+    3300426: Roof_Top
+    3300428: Shape001
+    3300430: Stone
+    3300432: Stone 1
+    3300434: Stone 2
+    3300436: Stone 3
+    3300438: Stone 4
+    3300440: Stone 5
+    3300442: StraightStair001
+    3300444: StraightStair002
+    3300446: Walls_Bathroom
+    3300448: Walls_Bedroom
+    3300450: Walls_Courtyard2
+    3300452: Walls_Coutyard1
+    3300454: Walls_Diningroom
+    3300456: Walls_Exterior2
+    3300458: Walls_Garage
+    3300460: Walls_Livingroom
+    3300462: Walls_Relaxroom
+    3300464: Walls_Shell
+    3300466: Walls_Studio1
+    3300468: Walls_Studio2
+    3300470: Stair
+    3300472: Wood00
+    3300474: Wood01
+    3300476: Wood02
+    3300478: Wood03
+    3300480: Wood04
+    3300482: Wood05
+    3300484: Wood06
+    3300486: Wood07
+    3300488: Wood08
+    3300490: Wood09
+    3300492: Wood10
+    3300494: Wood11
+    3300496: Wood12
+    3300498: Wood13
+    3300500: Wood14
+    3300502: Wood15
+    3300504: Wood016
+    3300506: Wood017
+    3300508: Wood018
+    3300510: Wood019
+    3300512: Wood020
+    3300514: Wood021
+    3300516: Stair2
+    3300518: Stair3
+    3300520: Wood20
+    4300000: Wood
+    4300002: Wood
+    4300004: Wood
+    4300006: Wood
+    4300008: Wood
+    4300010: Wood
+    4300012: Wood
+    4300014: Wood
+    4300016: Wood
+    4300018: Wood
+    4300020: Wood
+    4300022: Wood
+    4300024: Wood
+    4300026: Wood
+    4300028: Wood
+    4300030: Wood
+    4300032: Wood
+    4300034: Wood
+    4300036: Wood
+    4300038: Wood
+    4300040: Wood
+    4300042: Wood
+    4300044: Wood
+    4300046: Wood
+    4300048: Wood
+    4300050: Wood
+    4300052: Wood
+    4300054: Wood
+    4300056: Wood
+    4300058: Wood
+    4300060: Wood
+    4300062: Wood
+    4300064: Wood
+    4300066: Wood
+    4300068: Wood
+    4300070: Wood
+    4300072: Wood
+    4300074: Wood
+    4300076: Wood
+    4300078: Wood
+    4300080: Wood
+    4300082: Wood
+    4300084: Wood
+    4300086: Wood
+    4300088: Wood
+    4300090: Wood
+    4300092: Wood
+    4300094: Wood
+    4300096: Wood
+    4300098: Wood
+    4300100: Wood
+    4300102: Wood
+    4300104: Wood
+    4300106: Wood
+    4300108: Wood
+    4300110: Wood
+    4300112: Wood
+    4300114: Wood
+    4300116: Wood
+    4300118: Wood
+    4300120: Wood
+    4300122: Wood
+    4300124: Wood
+    4300126: Wood
+    4300128: Wood
+    4300130: Wood
+    4300132: Wood
+    4300134: Wood
+    4300136: Wood
+    4300138: Metal
+    4300140: Metal
+    4300142: Metal
+    4300144: Metal
+    4300146: Metal
+    4300148: Metal
+    4300150: Metal
+    4300152: Metal
+    4300154: Metal
+    4300156: Metal
+    4300158: Metal
+    4300160: Metal
+    4300162: Wood
+    4300164: Plane002
+    4300166: Plane003
+    4300168: Plane004
+    4300170: Plane001
+    4300172: Walls_Diningroom
+    4300174: Roof_Street
+    4300176: Roof_Main
+    4300178: Plane007
+    4300180: Plane008
+    4300182: Floor_Parquet
+    4300184: Floor_Parquet
+    4300186: StraightStair001
+    4300188: StraightStair002
+    4300190: Frames_Interior
+    4300192: Roof_Top
+    4300194: Line048
+    4300196: Frames_Interior
+    4300198: Box021
+    4300200: Box022
+    4300202: Floor_Parquet
+    4300204: Frames_Exterior
+    4300206: Frames_Exterior
+    4300208: Frames_Exterior
+    4300210: Frames_Interior
+    4300212: Frames_Exterior
+    4300214: Frames_Exterior
+    4300216: Frames_Exterior
+    4300218: Frames_Exterior
+    4300220: Frames_Interior
+    4300222: Frames_Exterior
+    4300224: Frames_Exterior
+    4300226: Frames_Exterior
+    4300228: Cylinder001
+    4300230: Frames_Exterior
+    4300232: Frames_Exterior
+    4300234: Line066
+    4300236: Line067
+    4300238: Line068
+    4300240: Frames_Pillar
+    4300242: Frames_Pillar
+    4300244: Line073
+    4300246: Line074
+    4300248: Line075
+    4300250: Box087
+    4300252: Box088
+    4300254: Plane009
+    4300256: Line076
+    4300258: Line077
+    4300260: Box089
+    4300262: Box090
+    4300264: Box091
+    4300266: Floor_Parquet
+    4300268: Floor_Parquet
+    4300270: Glass_Exterior
+    4300272: Glass_Interior
+    4300274: Object007
+    4300276: Object008
+    4300278: Object009
+    4300280: Line083
+    4300282: Frames_Interior
+    4300284: Walls_Shell
+    4300286: Object
+    4300288: Line087
+    4300290: Line088
+    4300292: Line089
+    4300294: Line090
+    4300296: Line091
+    4300298: Line092
+    4300300: Cylinder006
+    4300302: Line093
+    4300304: Cylinder007
+    4300306: Walls_Studio2
+    4300308: Walls_Bathroom
+    4300310: Walls_Studio1
+    4300312: Walls_Garage
+    4300314: Walls_Relaxroom
+    4300316: Walls_Courtyard2
+    4300318: Walls_Coutyard1
+    4300320: Walls_Bedroom
+    4300322: Floor_Ceramic
+    4300324: Walls_Exterior2
+    4300326: Walls_Livingroom
+    4300328: Frames_Exterior
+    4300330: Frames_Exterior
+    4300332: Frames_Exterior
+    4300334: Frames_Exterior
+    4300336: Frames_Interior
+    4300338: Frames_Interior
+    4300340: Frames_Interior
+    4300342: Frames_Interior
+    4300344: Frames_Interior
+    4300346: Frames_Interior
+    4300348: Frames_Interior
+    4300350: Frames_Exterior
+    4300352: Frames_Exterior
+    4300354: Frames_Interior
+    4300356: Frames_Interior
+    4300358: Frames_Exterior
+    4300360: Frames_Interior
+    4300362: Frames_Interior
+    4300364: Frames_Exterior
+    4300366: Frames_Interior
+    4300368: Frames_Interior
+    4300370: Glass_Exterior
+    4300372: Glass_Interior
+    4300374: Glass_Interior
+    4300376: Glass_Exterior
+    4300378: Glass_Exterior
+    4300380: Glass_Interior
+    4300382: Glass_Exterior
+    4300384: Glass_Interior
+    4300386: Glass_Exterior
+    4300388: Glass_Interior
+    4300390: Glass_Exterior
+    4300392: Glass_Interior
+    4300394: Glass_Interior
+    4300396: Glass_Exterior
+    4300398: Glass_Interior
+    4300400: Glass_Exterior
+    4300402: Glass_Interior
+    4300404: Glass_Exterior
+    4300406: Glass_Interior
+    4300408: Glass_Exterior
+    4300410: Glass_Interior
+    4300412: Glass_Exterior
+    4300414: Glass_Exterior
+    4300416: Glass_Interior
+    4300418: Glass_Interior
+    4300420: Glass_Exterior
+    4300422: Glass_Interior
+    4300424: Glass_Interior
+    4300426: Glass_Exterior
+    4300428: Glass_Interior
+    4300430: Glass_Interior
+    4300432: Glass_Interior
+    4300434: Glass_Interior
+    4300436: Frames_Interior
+    4300438: Frames_Interior
+    4300440: Stone
+    4300442: Stone
+    4300444: Stone
+    4300446: Stone
+    4300448: Stone
+    4300450: Stone
+    4300452: Shape001
+    4300454: Plane010
+    4300456: Metal001
+    4300458: Plane011
+    4300460: Box094
+    4300462: Line140
+    4300464: Box397
+    4300466: Object011
+    4300468: Box398
+    4300470: Stair
+    4300472: Wood11
+    4300474: Wood06
+    4300476: Wood04
+    4300478: Wood05
+    4300480: Wood03
+    4300482: Wood00
+    4300484: Wood01
+    4300486: Wood02
+    4300488: Wood09
+    4300490: Wood12
+    4300492: Wood13
+    4300494: Wood10
+    4300496: Wood07
+    4300498: Wood08
+    4300500: Wood14
+    4300502: Wood15
+    4300504: Wood016
+    4300506: Wood017
+    4300508: Wood018
+    4300510: Wood019
+    4300512: Wood020
+    4300514: Wood021
+    4300516: Stair3
+    4300518: Stair2
+    4300520: Wood20
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12 - Default
+    second: {fileID: 2100000, guid: 46b59a5741e3a324eb0d7b8f584c6337, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic_Tiles
+    second: {fileID: 2100000, guid: 4ccb9b60018c5ed4ba17084697ed39e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Checker
+    second: {fileID: 2100000, guid: fa0ae02014f481b43a0e312e8907b36c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ground
+    second: {fileID: 2100000, guid: 9597c8e5256709c4da2904ea7adb2225, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #109'
+    second: {fileID: 2100000, guid: ed5f665685cc6bb42ba969175f47c209, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #36'
+    second: {fileID: 2100000, guid: 41d39a5d45aad254aa1e977081c63972, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #37'
+    second: {fileID: 2100000, guid: 3c1c04e6855c0fb4e86a5374b31fc3bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #39'
+    second: {fileID: 2100000, guid: 6197433128b0b6948bf20b5a57b88f9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #42'
+    second: {fileID: 2100000, guid: 47c1f60aae85dd745ba2c022c8e8f422, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #78'
+    second: {fileID: 2100000, guid: 4033db97a3e86144285ba2052d2a520b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #80'
+    second: {fileID: 2100000, guid: 66f57a7c804962242a5e9b308c62f39a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #94'
+    second: {fileID: 2100000, guid: 96a74b8632a644a4bb29b7c0dea9d4a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metallo_Copertura
+    second: {fileID: 2100000, guid: 9bedf582322580f408d6da2c9927ceb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metallo_blu
+    second: {fileID: 2100000, guid: 5649166410a5d9b4098419c9bd7e7b4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 5a62b2aaf7271af4dbc41246c81a4dd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaster_White
+    second: {fileID: 2100000, guid: 3c49a7acebaa8fa4facca8fec0e6723a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skirting
+    second: {fileID: 2100000, guid: 359ead788f172ae4da3d2f71b372c13e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 8311e950401266d4cb0a1a591d9f6082, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Floor
+    second: {fileID: 2100000, guid: c82f114ea8fed344f8e104316d2be1c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beach_gravel
+    second: {fileID: 2100000, guid: f3ebf0a71e792e14dbe21cc02db5f1cb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

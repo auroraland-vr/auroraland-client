@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 61b9eb34b41ad8544b100127fdc95953
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Soderhamn
+    100002: Soderhamn_Pillows1
+    100004: Soderhamn_Pillows2
+    100006: Soderhamn_Pillows3
+    100008: Soderhamn_Pillows4
+    100010: Soderhamn_Pillows5
+    100012: Soderhamn_Pillows6
+    100014: //RootNode
+    400000: Soderhamn
+    400002: Soderhamn_Pillows1
+    400004: Soderhamn_Pillows2
+    400006: Soderhamn_Pillows3
+    400008: Soderhamn_Pillows4
+    400010: Soderhamn_Pillows5
+    400012: Soderhamn_Pillows6
+    400014: //RootNode
+    2100000: Soderhamn
+    2100002: Soderhamn_Pillows
+    2300000: Soderhamn
+    2300002: Soderhamn_Pillows1
+    2300004: Soderhamn_Pillows2
+    2300006: Soderhamn_Pillows3
+    2300008: Soderhamn_Pillows4
+    2300010: Soderhamn_Pillows5
+    2300012: Soderhamn_Pillows6
+    3300000: Soderhamn
+    3300002: Soderhamn_Pillows1
+    3300004: Soderhamn_Pillows2
+    3300006: Soderhamn_Pillows3
+    3300008: Soderhamn_Pillows4
+    3300010: Soderhamn_Pillows5
+    3300012: Soderhamn_Pillows6
+    4300000: Soderhamn
+    4300002: Soderhamn_Pillows6
+    4300004: Soderhamn_Pillows5
+    4300006: Soderhamn_Pillows4
+    4300008: Soderhamn_Pillows3
+    4300010: Soderhamn_Pillows2
+    4300012: Soderhamn_Pillows1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

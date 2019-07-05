@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: b4cbdebfa29e09343adf7c6320747fc1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: hand_R1
+    100004: Index_Distal_Right
+    100006: Index_Intermediate_Right
+    100008: Index_Proximal_Right
+    100010: Index_Tip_Right
+    100012: Middle_Distal_Right
+    100014: Middle_Intermediate_Right
+    100016: Middle_Proximal_Right
+    100018: Middle_Tip_Right
+    100020: Pinky_Distal_Right
+    100022: Pinky_Intermediate_Right
+    100024: Pinky_Proximal_Right
+    100026: Pinky_Tip_Right
+    100028: Ring_Distal_Right
+    100030: Ring_Intermediate_Right
+    100032: Ring_Proximal_Right
+    100034: Ring_Tip_Right
+    100036: Thumb_Distal_Right
+    100038: Thumb_Intermediate_Right
+    100040: Thumb_Proximal_Right
+    100042: Thumb_Tip_Right
+    100044: Wrist_Right
+    400000: //RootNode
+    400002: hand_R1
+    400004: Index_Distal_Right
+    400006: Index_Intermediate_Right
+    400008: Index_Proximal_Right
+    400010: Index_Tip_Right
+    400012: Middle_Distal_Right
+    400014: Middle_Intermediate_Right
+    400016: Middle_Proximal_Right
+    400018: Middle_Tip_Right
+    400020: Pinky_Distal_Right
+    400022: Pinky_Intermediate_Right
+    400024: Pinky_Proximal_Right
+    400026: Pinky_Tip_Right
+    400028: Ring_Distal_Right
+    400030: Ring_Intermediate_Right
+    400032: Ring_Proximal_Right
+    400034: Ring_Tip_Right
+    400036: Thumb_Distal_Right
+    400038: Thumb_Intermediate_Right
+    400040: Thumb_Proximal_Right
+    400042: Thumb_Tip_Right
+    400044: Wrist_Right
+    4300000: hand_R1
+    9500000: //RootNode
+    13700000: hand_R1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: 645a3d8464bc0194fa81ec4a13ee3022, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.44
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.014400001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
