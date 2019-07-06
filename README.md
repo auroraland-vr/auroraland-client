@@ -6,7 +6,7 @@ This project is an open source project developed on top of open source component
 all non-code assets were developed by engineers sponsored by campanies.
 
 *Source Code: there is no propietary code included in the project. Each file may have its
-own copyright and licenses, otherwise GPL is applied by default.
+own copyright and licenses, otherwise Apache License Version 2.0 is applied by default.
 
 *Assets: all assets, including but not limited to 3D objects, models, medias, are included
 only as examples. To use any of these assets may need separate licenses. Home Spaces,
