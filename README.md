@@ -1,6 +1,5 @@
 # auroraland-client
 ## Published by Auroraland Authors
-## This project was developed from 2017 to 2019 with contributions from all authors.
 ##
 ## IMPORTANT INFORMATION ##
 This project is an open source project developed on top of open source components, and
