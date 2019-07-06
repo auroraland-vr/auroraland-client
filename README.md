@@ -1,7 +1,8 @@
 # auroraland-client
 # Published by Auroraland Authors
+# This project was developed from 2017 to 2019 with contributions from all authors.
 
-### IMPORTANT INFORMATION ###
+## IMPORTANT INFORMATION ##
 This project is an open source project developed on top of open source components, and
 all non-code assets were developed by engineers sponsored by campanies.
 
@@ -19,3 +20,9 @@ for example VRTK, but they are not maintained by developers of this project. Ple
 try to integrated those 3rd party code on your own risk.
 
 Development Environment: Unity 2017.4.1f1
+
+This is an open source project with contributions from both companies and individuals, so if
+you find any code or assets which may have license or copyright issues, please feel free to
+contact us to correct it.
+
+-Auroraland Authors
